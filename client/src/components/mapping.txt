@@ -1,0 +1,21 @@
+import { useEffect, useState } from "react";
+
+const l= window.location.href;
+
+const [link, setLink] = useState("#home");
+
+useEffect(()=> {
+
+})
+
+
+// mapping nav links
+{
+    navList.map({nav, i} => {
+        <li className:'nav-item' key={i}>
+            <a href={nav.link} className=`{'${nav-link }active active'}` : >
+                {nav.title}
+            </a>
+        </li>
+    })
+}
