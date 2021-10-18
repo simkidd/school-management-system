@@ -1,39 +1,41 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const NavComp = () => {
     return (
         <nav className="navbar bg-green">
             <div className="container px-5">
                 <div className="navbar-brand">
+                <Link to='/'>
                     <img src="/images/Group_60.png" alt="" />
+                </Link>
                 </div>
 
                 <ul className="nav">
                     <li className="nav-item">
-                        <NavLink to="/" activeClassName="nav-link active" >Home</NavLink>
+                        <Link to="/" className="nav-link">Home</Link>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/" className="nav-link">About</NavLink>
+                        <Link to="/" className="nav-link">About</Link>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/" className="nav-link">Services</NavLink>
+                        <Link to="/" className="nav-link">Services</Link>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/" className="nav-link">Instructors</NavLink>
+                        <Link to="/" className="nav-link">Instructors</Link>
                     </li>
                     <li className="nav-item dropdown">
-                        <NavLink to="#" className="nav-link dropdown-toggle">Courses</NavLink>
+                        <Link to="#" className="nav-link dropdown-toggle">Courses</Link>
                         <div className="dropdown-menu">
-                            <NavLink to="#" className="dropdown-item">Option 1</NavLink>
-                            <NavLink to="#" className="dropdown-item">Option 2</NavLink>
+                            <Link to="#" className="dropdown-item">Option 1</Link>
+                            <Link to="#" className="dropdown-item">Option 2</Link>
                         </div>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/" className="nav-link">Blog</NavLink>
+                        <Link to="/" className="nav-link">Blog</Link>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/" className="nav-link btn-1">Contact</NavLink>
+                        <Link to="/" className="nav-link btn-1">Contact</Link>
                     </li>
                 </ul>
             </div>

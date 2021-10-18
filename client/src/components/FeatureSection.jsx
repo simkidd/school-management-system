@@ -8,7 +8,7 @@ const FeatureSection = () => {
         <Wrapper>
             <div className="section-2">
                 <div className="container py-5 px-5">
-                    <h2 className="text-center text-white py-3">Our Features</h2>
+                    <h2 className="text-center text-white py-3 fw-bold">Our Features</h2>
                     <p className='text-center text-white mb-4 pb-3'>Dinny Green International School is nurtured in grace and truth, raising green, <br /> flourishing and successful children.</p>
 
                     <div className="inner-wrapper">

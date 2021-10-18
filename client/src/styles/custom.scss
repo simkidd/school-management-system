@@ -149,3 +149,80 @@ header{
         }
     }
 }
+
+// classes section
+.section-4{
+    background: $color-2;
+    height: 80vh;
+    a{
+        padding: 0.6rem 1.8rem;
+        font-size: 14px;
+    }
+}
+
+// video section
+.section-5{
+    background: #fff;
+    .img-wrapper{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        background: #48574c;
+        ;
+        img{
+            width: 100%;
+            object-fit: cover;
+            mix-blend-mode: overlay;
+            
+        }
+        .play-circle{
+            position: absolute;
+            background: $color-2;
+            z-index: 1;
+            border-radius: 50%;
+            display: flex;
+            padding: 2rem;
+            cursor: pointer;
+            opacity: 0.9;
+            &:hover{
+                transform: scale(1.1);
+            }
+            .play-button{
+                font-size: 2rem;
+                
+            }
+        }
+    }
+}
+
+// stories section
+
+// instructors section
+.section-7{
+    background: $color-2;
+    a{
+        padding: 0.6rem 1.8rem;
+        font-size: 14px;
+    }
+}
+
+// contact section
+.section-8{
+    background: #fff;
+    input, textarea{
+        font-size: 14px;
+        
+    }
+    .btn-1{
+        padding: 0.6rem 1.8rem;
+        font-size: 14px;
+    }
+}
+
+// footer
+footer{
+    background: $secondary;
+}

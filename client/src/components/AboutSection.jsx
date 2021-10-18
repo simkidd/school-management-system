@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const AboutSection = () => {
     return (
-        <div className="section-3">
+        <div className="section-3" >
             <div className="container py-5 px-5">
                 <div className="row">
                     <div className="col-5">
